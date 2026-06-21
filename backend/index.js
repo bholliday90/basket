@@ -216,7 +216,8 @@ function createApp() {
   });
 
   // Production: serve built frontend static files
-  if (process.env.NODE_ENV === 'production') {
+  // Only active when NOT running on Vercel (Vercel handles static files via vercel.json)
+  if (process.env.NODE_ENV === 'production' && !process.env.VERCEL) {
     const frontendDist = path.join(__dirname, '../frontend/dist');
     app.use(express.static(frontendDist));
     
