@@ -60,12 +60,12 @@ The backend will serve the built frontend static files from `frontend/dist`.
 
 ## Vercel Deployment
 
-This project is prepared for deployment on Vercel as a monorepo.
+This project is prepared for deployment on Vercel.
 
-1.  **Connect GitHub**: Connect your repository to Vercel.
-2.  **Configuration**: Vercel will automatically detect the settings from `vercel.json`.
-3.  **Environment Variables**: Ensure you set any necessary environment variables in the Vercel dashboard (e.g., `AFFILIATE_ID_TARGET`).
-4.  **Database**: Note that this app currently uses the `team-db` CLI for SQLite, which may require specific environment setup or replacement with a cloud SQLite provider (like Turso) for full cloud functionality.
+1.  **Connect GitHub**: Import `bholliday90/basket` on [vercel.com/new](https://vercel.com/new).
+2.  **Auto-deploy**: Vercel reads `vercel.json` — no manual config needed.
+3.  **Environment Variables** (optional): Set affiliate IDs in Vercel dashboard → Project Settings → Environment Variables.
+4.  **Database**: On Vercel, the app uses built-in mock data automatically (the `team-db` CLI is a platform tool that only works in development). All features work with realistic simulated prices.
 
 ## KPIs
 
