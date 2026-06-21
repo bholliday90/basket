@@ -58,6 +58,15 @@ To prepare the app for production:
    ```
 The backend will serve the built frontend static files from `frontend/dist`.
 
+## Vercel Deployment
+
+This project is prepared for deployment on Vercel as a monorepo.
+
+1.  **Connect GitHub**: Connect your repository to Vercel.
+2.  **Configuration**: Vercel will automatically detect the settings from `vercel.json`.
+3.  **Environment Variables**: Ensure you set any necessary environment variables in the Vercel dashboard (e.g., `AFFILIATE_ID_TARGET`).
+4.  **Database**: Note that this app currently uses the `team-db` CLI for SQLite, which may require specific environment setup or replacement with a cloud SQLite provider (like Turso) for full cloud functionality.
+
 ## KPIs
 
 - Monthly Active Users (MAU)

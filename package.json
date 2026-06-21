@@ -11,6 +11,11 @@
     "init-db": "node backend/init-db.js"
   },
   "dependencies": {
-    "concurrently": "^9.1.0"
+    "axios": "^1.18.0",
+    "cheerio": "^1.2.0",
+    "concurrently": "^9.1.0",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1"
   }
 }
