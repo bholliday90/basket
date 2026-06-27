@@ -1,5 +1,5 @@
 {
-  "buildCommand": "npm run build && rm -rf dist && cp -r frontend/dist dist",
+  "buildCommand": "npm run build",
   "rewrites": [
     { "source": "/api/(.*)", "destination": "/api" }
   ]
