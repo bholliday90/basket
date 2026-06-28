@@ -1,4 +1,11 @@
-const { execSync } = require('child_process');
+/** @type {typeof import('child_process').execSync} */
+let execSync;
+try {
+  execSync = require('child_process').execSync;
+} catch (e) {
+  // child_process not available (e.g. Vercel serverless), will use in-memory fallback
+  execSync = null;
+}
 
 /**
  * In-memory fallback data for when team-db is not available (e.g. Vercel).
@@ -123,6 +130,7 @@ function fallbackQuery(sql) {
  */
 function query(sql, retries = 5, delay = 500) {
   try {
+    if (!execSync) throw new Error('child_process not available');
     const output = execSync(`team-db "${sql.replace(/"/g, '\\"')}"`, { encoding: 'utf8', timeout: 5000 });
     return JSON.parse(output);
   } catch (error) {
