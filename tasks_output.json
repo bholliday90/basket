@@ -1,0 +1,152 @@
+[
+  {
+    "id": "ffa97ad8-8eb3-4e28-a124-b6b5f93f44b8",
+    "title": "Scaffold Basket app — full project skeleton",
+    "status": "done",
+    "assigned_to": "agent-full-stack-engineer"
+  },
+  {
+    "id": "48378ec2-10b1-4310-8bdd-f72a88533d2c",
+    "title": "Build store connector framework",
+    "status": "done",
+    "assigned_to": "agent-data-specialist"
+  },
+  {
+    "id": "dbec25a0-86a3-4d52-9141-c643af069602",
+    "title": "Build Target & Walmart data connectors",
+    "status": "done",
+    "assigned_to": "agent-data-specialist"
+  },
+  {
+    "id": "3a94aa25-8791-4a3d-a8e9-5e89d564c6c3",
+    "title": "Build Kroger, Aldi, Costco & Sam's Club connectors",
+    "status": "done",
+    "assigned_to": "agent-data-specialist"
+  },
+  {
+    "id": "3bf11ed3-29b8-49cf-83c2-3bf8fe3b361b",
+    "title": "Build price comparison API endpoints",
+    "status": "done",
+    "assigned_to": "agent-full-stack-engineer"
+  },
+  {
+    "id": "b2aceebb-9290-46a7-acaf-e3112d5e64f4",
+    "title": "Build the core price comparison UI",
+    "status": "done",
+    "assigned_to": "agent-full-stack-engineer"
+  },
+  {
+    "id": "b9571927-cde9-42ad-8654-7980f8ad5a6c",
+    "title": "Production prep — static serving, affiliate links, env config",
+    "status": "done",
+    "assigned_to": "agent-full-stack-engineer"
+  },
+  {
+    "id": "71e22a52-8f9b-49c4-92f1-31c617128fb9",
+    "title": "Push Basket code to GitHub repository",
+    "status": "done",
+    "assigned_to": "agent-full-stack-engineer"
+  },
+  {
+    "id": "00210e67-f410-4f7c-997f-371d9a0a985d",
+    "title": "Set up Vercel deployment",
+    "status": "done",
+    "assigned_to": "agent-full-stack-engineer"
+  },
+  {
+    "id": "52725b65-1a66-4b90-9677-24fc9b9cb8d0",
+    "title": "Push Vercel build fix to GitHub",
+    "status": "done",
+    "assigned_to": "agent-full-stack-engineer"
+  },
+  {
+    "id": "f15db6f9-bca5-44b3-a8ae-500eac14da63",
+    "title": "Push Vercel output directory fix",
+    "status": "done",
+    "assigned_to": "agent-full-stack-engineer"
+  },
+  {
+    "id": "7ca6d62d-b5d5-4738-9779-a2d997a869d0",
+    "title": "Push Vercel output directory fix v2",
+    "status": "done",
+    "assigned_to": "agent-full-stack-engineer"
+  },
+  {
+    "id": "e752e35e-496b-4791-bb04-6be6fb0faf18",
+    "title": "Push Vercel fix v3 - output to root dist/ via build script",
+    "status": "done",
+    "assigned_to": "agent-full-stack-engineer"
+  },
+  {
+    "id": "483528eb-8c7d-492b-a9c2-f70458a6f0b3",
+    "title": "Push Vercel fix v4 - copy to root dist/ after build",
+    "status": "done",
+    "assigned_to": "agent-full-stack-engineer"
+  },
+  {
+    "id": "d5b02ef0-9a73-44ad-b931-a4c22857c75d",
+    "title": "Push Vercel fix v5 - copy in same shell",
+    "status": "done",
+    "assigned_to": "agent-full-stack-engineer"
+  },
+  {
+    "id": "f04d82db-d1da-4880-9617-ac451ee94608",
+    "title": "Push Vercel fix v6 - explicit outputDirectory",
+    "status": "done",
+    "assigned_to": "agent-full-stack-engineer"
+  },
+  {
+    "id": "22c018de-c05f-47b6-8bb0-f259b92b9bf9",
+    "title": "Push Vercel fix v7 - rootDirectory approach",
+    "status": "done",
+    "assigned_to": "agent-full-stack-engineer"
+  },
+  {
+    "id": "43fcddc7-5440-4d2b-b46f-4d8a5554657a",
+    "title": "Push Vercel fix v8 - --outDir from build script",
+    "status": "done",
+    "assigned_to": "agent-full-stack-engineer"
+  },
+  {
+    "id": "331f3702-2bcd-46e5-9910-266eeb63ec2c",
+    "title": "Push Vercel fix v9 - disable framework detection",
+    "status": "done",
+    "assigned_to": "agent-full-stack-engineer"
+  },
+  {
+    "id": "863e4593-b276-4890-9c45-4c95d7cbeb7f",
+    "title": "Push Vercel fix v10 - copy to root dist after build",
+    "status": "done",
+    "assigned_to": "agent-full-stack-engineer"
+  },
+  {
+    "id": "ea4ae556-d566-4907-83f2-4b9e38d88f86",
+    "title": "Push Vercel serverless compatibility fix",
+    "status": "done",
+    "assigned_to": "agent-full-stack-engineer"
+  },
+  {
+    "id": "7ee6fbaa-b977-462b-bc37-a344f687a211",
+    "title": "Push fix: API rewrite rule was breaking Express routing",
+    "status": "done",
+    "assigned_to": "agent-full-stack-engineer"
+  },
+  {
+    "id": "6574a5bf-66fb-4a3e-8afa-63ce0b464dcb",
+    "title": "Push API routing fix - route to /api/index.js",
+    "status": "done",
+    "assigned_to": "agent-full-stack-engineer"
+  },
+  {
+    "id": "dc722262-69cc-4e0a-a9fc-b8295a9eda32",
+    "title": "Push fix: serverless-http for Express on Vercel",
+    "status": "done",
+    "assigned_to": "agent-full-stack-engineer"
+  },
+  {
+    "id": "037d7938-4814-4278-85e7-cd4595e57aeb",
+    "title": "Push minimal config - test auto-routing",
+    "status": "done",
+    "assigned_to": "agent-full-stack-engineer"
+  }
+]
