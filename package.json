@@ -7,7 +7,7 @@
     "backend": "node --max-old-space-size=512 backend/index.js",
     "frontend": "cd frontend && npm run dev",
     "dev": "concurrently \"npm run backend\" \"npm run frontend\"",
-    "build": "cd frontend && npm install && npm run build && mkdir -p ../public && cp -r dist/. ../public/",
+    "build": "cd frontend && npm install && npx vite build --outDir ../dist",
     "init-db": "node backend/init-db.js"
   },
   "dependencies": {
