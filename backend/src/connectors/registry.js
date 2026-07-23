@@ -9,6 +9,11 @@ const registry = {
   'aldi': require('./aldi'),
   'costco': require('./costco'),
   'sams-club': require('./sams-club'),
+  'publix': require('./publix'),
+  'heb': require('./heb'),
+  'safeway': require('./safeway'),
+  'trader-joes': require('./trader-joes'),
+  'edwards': require('./edwards'),
 };
 
 /**

@@ -22,6 +22,26 @@ const AFFILIATE_CONFIG = {
   'sams-club': {
     baseUrl: 'https://goto.samsclub.com/c/',
     idEnv: 'AFFILIATE_ID_SAMS_CLUB'
+  },
+  'publix': {
+    baseUrl: 'https://goto.publix.com/c/',
+    idEnv: 'AFFILIATE_ID_PUBLIX'
+  },
+  'heb': {
+    baseUrl: 'https://goto.heb.com/c/',
+    idEnv: 'AFFILIATE_ID_HEB'
+  },
+  'safeway': {
+    baseUrl: 'https://goto.safeway.com/c/',
+    idEnv: 'AFFILIATE_ID_SAFEWAY'
+  },
+  'trader-joes': {
+    baseUrl: 'https://goto.traderjoes.com/c/',
+    idEnv: 'AFFILIATE_ID_TRADER_JOES'
+  },
+  'edwards': {
+    baseUrl: 'https://goto.edwardsfoods.com/c/',
+    idEnv: 'AFFILIATE_ID_EDWARDS'
   }
 };
 
